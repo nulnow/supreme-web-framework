@@ -1,0 +1,5 @@
+export { LoginController } from './controllers/LoginController'
+export { RegisterController } from './controllers/RegisterController'
+export { AuthService } from './services/AuthService'
+export { AuthenticationIsRequiredMiddleware } from './middlewares/AuthenticationIsRequiredMiddleware'
+export { AuthenticationMiddleware } from './middlewares/AuthenticationMiddleware'
